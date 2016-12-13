@@ -1,3 +1,11 @@
+Bikram Sambat Example
+------------
+
+```java
+    DateTime bikramSambatDate = new DateTime(BISChronology.getInstance());
+    System.out.println("Bikram Sambat date is : "+ bikramSambatDate);
+```
+
 Joda-Time
 ---------
 
