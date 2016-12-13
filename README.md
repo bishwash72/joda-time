@@ -2,8 +2,10 @@ Bikram Sambat Example
 ------------
 
 ```java
-    DateTime bikramSambatDate = new DateTime(BISChronology.getInstance());
-    System.out.println("Bikram Sambat date is : "+ bikramSambatDate);
+DateTime bikramSambatDate = new DateTime(BISChronology.getInstance());
+System.out.println("Bikram Sambat date is : "+ bikramSambatDate);
+
+Output :: Bikram Sambat date is : 2073-08-28T10:01:30.181Z
 ```
 
 Joda-Time
@@ -51,37 +53,6 @@ Various documentation is available:
 * The [Javadoc](http://www.joda.org/joda-time/apidocs/index.html)
 * The [FAQ](http://www.joda.org/joda-time/faq.html) list
 * Information on [downloading and installing](http://www.joda.org/joda-time/installation.html) Joda-Time including release notes
-
-
-### Releases
-[Release 2.9.6](http://www.joda.org/joda-time/download.html) is the current latest release.
-This release is considered stable and worthy of the 2.x tag.
-It depends on JDK 1.5 or later.
-
-Available in the [Maven Central repository](http://search.maven.org/#artifactdetails|joda-time|joda-time|2.9.6|jar)
-
-**Maven configuration:**
-```xml
-<dependency>
-  <groupId>joda-time</groupId>
-  <artifactId>joda-time</artifactId>
-  <version>2.9.6</version>
-</dependency>
-```
-
-**Gradle configuration:**
-```groovy
-compile 'joda-time:joda-time:2.9.6'
-```
-
-### Related projects
-Related projects at GitHub:
-- https://github.com/JodaOrg/joda-time-hibernate
-- https://github.com/JodaOrg/joda-time-jsptags
-- https://github.com/JodaOrg/joda-time-i18n
-
-Other related projects:
-- http://www.joda.org/joda-time/related.html
 
 
 ### Support
